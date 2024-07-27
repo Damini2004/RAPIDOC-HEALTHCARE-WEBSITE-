@@ -7,10 +7,58 @@
   
   <script src="error.js"></script>
   <link rel="stylesheet" href="error.css">
+  <style>
+      body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+        .error img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 72px;
+            margin: 20px 0 10px;
+            color: #ff6b6b;
+        }
+        h2 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container2">
       <a href="/" class="logo">RapiDoc </a>
     </div>
   </header>
@@ -18,6 +66,7 @@
   <main>
     <div class="container">
       <div class="error">
+        <img src="/Html-Files/404.gif" alt="" style="border-radius: 15px; height: 400px;" >
         <h1>404</h1>
         <h2>Ooops! Page Not Found</h2>
         <p>We're sorry, but the page you requested was not found. Perhaps you mistyped the URL or the page has been removed.</p>
@@ -27,7 +76,7 @@
   </main>
 
   <footer>
-    <div class="container">
+    <div class="container2">
       <p>&copy; RapiDoc - 2024</p>
     </div>
   </footer>
